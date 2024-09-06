@@ -1,0 +1,33 @@
+/* Добавьте эти стили к существующим в admin.css */
+
+.news-form input[type="text"],
+.news-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #8b4513;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0d8b0;
+}
+
+.news-form textarea {
+    height: 150px;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: rgba(76, 175, 80, 0.2);
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+}
+
+.message.error {
+    background-color: rgba(244, 67, 54, 0.2);
+    border: 1px solid #f44336;
+    color: #f44336;
+}
